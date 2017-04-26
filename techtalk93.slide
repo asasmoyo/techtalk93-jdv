@@ -87,6 +87,8 @@ There is also a package `github.com/namsral/flag` that also read environment var
 - [[https://gopkg.in/guregu/null.v3][null]] nullable type
 - [[https://gopkg.in/go-playground/validator.v9][validator]] validate a struct
 
+* You might not need Golang Web Framework
+
 * Demo!
 
 In the meantime we ask you kindly to fill [[bit.ly/qiscus93][bit.ly/qiscus93]]

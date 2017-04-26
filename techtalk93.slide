@@ -1,0 +1,92 @@
+What I Wish I Knew Before Developing Golang Rest API
+
+Arba Sasmoyo
+Qiscus
+https://asasmoyo.github.io
+
+* Previously at Qiscus
+
+- Rails based Chat Engine
+- Took long to build ~10mins
+- Took some amount of time to deploy
+- Took so much RAM ~250MB when idle
+- So large ~900MB docker image
+
+* Previously at Qiscus
+
+.image assets/compiling.jpg
+
+* Now...
+
+- Golang based Chat Engine
+- Pretty fast build ~5mins
+- Just take 10MB of RAM when idle
+- ~30MB binary size
+- Fast deploy
+
+* Old Engine vs New Engine
+
+.image assets/oldram.png 230 _
+.image assets/newram.png 230 _
+
+* Why Golang?
+
+- It is a compiled language
+- Multi platform
+- Simple
+- Pretty popular
+- Very easy to learn
+
+* How to start developing Golang app?
+
+* Install and Setup Golang
+
+Download from here: [[https://golang.org/dl/][https://golang.org/dl/]] (latest version 1.8.1)
+
+Need to set 2 environment variables:
+
+- `GOROOT`: Golang installation path
+- `GOPATH`: your workspace folder path
+
+* Setup IDE
+
+There are many IDEs that support Golang, ex:
+
+- Intelij (my favourite)
+- VSCode
+- Atom
+- Sublime
+- VIM
+- etc
+
+* Understand How Golang Package Works
+
+* Example Code
+
+.code assets/helloworld.go
+
+* Some Coding Conventions
+
+- Always store code in `GOPATH/src/VCS_HOSTING/YOUR_VCS_USER/PROJECT_NAME`
+- Always use tab
+- Use `goimports` to format your code
+
+* Use flag for Reading Configuration
+
+.code example-api/cmd/example-api/main.go /START OMIT/,/END OMIT/
+
+There is also a package `github.com/namsral/flag` that also read environment variables
+
+* Some Useful Packages
+
+- [[https://github.com/Masterminds/glide][glide]] dependency management tool
+- [[https://github.com/namsral/flag][flag]] read configurations from flag and environment variables
+- [[https://github.com/jteeuwen/go-bindata][gobindata]] load static files from memory
+- [[https://github.com/rubenv/sql-migrate][sql-migrate]] run SQL migrations
+- [[https://github.com/jinzhu/gorm][gorm]] ORM for Golang
+- [[https://gopkg.in/guregu/null.v3][null]] nullable type
+- [[https://gopkg.in/go-playground/validator.v9][validator]] validate a struct
+
+* Demo!
+
+In the meantime we ask you kindly to fill [[bit.ly/qiscus93][bit.ly/qiscus93]]

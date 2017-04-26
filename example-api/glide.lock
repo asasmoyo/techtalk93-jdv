@@ -1,0 +1,6 @@
+hash: 3947a1673379da9fe16108ea7c80197b99c3e453233a56fff727fb338b17e132
+updated: 2017-04-24T22:11:22.5677133+07:00
+imports:
+- name: gopkg.in/guregu/null.v3
+  version: 41961cea0328defc5f95c1c473f89ebf0d1813f6
+testImports: []

@@ -1,0 +1,7 @@
+{
+    "version": "0.1.0",
+    "command": "present",
+    "echoCommand": true,
+    "isShellCommand": true,
+    "showOutput": "always"
+}

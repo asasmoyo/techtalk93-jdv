@@ -1,0 +1,4 @@
+package: github.com/asasmoyo/techtalk93-jdv/example-api
+import:
+- package: gopkg.in/guregu/null.v3
+  version: ^3.1.0

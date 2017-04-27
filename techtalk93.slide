@@ -22,7 +22,7 @@ https://asasmoyo.github.io
 - Pretty fast build ~5mins
 - Just take 10MB of RAM when idle
 - ~30MB binary size
-- Fast deploy
+- Fast to deploy
 
 * Old Engine vs New Engine
 
@@ -59,7 +59,7 @@ There are many IDEs that support Golang, ex:
 - VIM
 - etc
 
-* Understand How Golang Package Works
+* Understanding How Golang Package Works
 
 * Example Code
 
@@ -67,15 +67,15 @@ There are many IDEs that support Golang, ex:
 
 * Some Coding Conventions
 
-- Always store code in `GOPATH/src/VCS_HOSTING/YOUR_VCS_USER/PROJECT_NAME`
+- Always store code in `$GOPATH/src/VCS_HOSTING/YOUR_VCS_USER/PROJECT_NAME`
 - Always use tab
 - Use `goimports` to format your code
 
-* Use flag for Reading Configuration
+* You might not need Golang Web Framework
 
-.code example-api/cmd/example-api/main.go /START OMIT/,/END OMIT/
+* Demo!
 
-There is also a package `github.com/namsral/flag` that also read environment variables
+In the meantime we ask you kindly to fill [[bit.ly/qiscus93][bit.ly/qiscus93]]
 
 * Some Useful Packages
 
@@ -86,9 +86,3 @@ There is also a package `github.com/namsral/flag` that also read environment var
 - [[https://github.com/jinzhu/gorm][gorm]] ORM for Golang
 - [[https://gopkg.in/guregu/null.v3][null]] nullable type
 - [[https://gopkg.in/go-playground/validator.v9][validator]] validate a struct
-
-* You might not need Golang Web Framework
-
-* Demo!
-
-In the meantime we ask you kindly to fill [[bit.ly/qiscus93][bit.ly/qiscus93]]
